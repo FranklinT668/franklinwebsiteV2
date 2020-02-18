@@ -35,4 +35,11 @@ $(document).ready(function () {
 
 
 
+    //-----------Load particles js------------
+    particlesJS.load('particles-js', 'particles-cfg.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+
+
+
 });
