@@ -3,7 +3,8 @@
 @import url(./fonts.css);
 
 body{
-    background-color: #f8f8f8;
+    background-color: #212121;
+    
 }
 
 /* start navigation */
@@ -24,7 +25,7 @@ body{
     padding: 1.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    color: black;
+    color: rgb(149, 172, 166);
 }
 
 .header_area .main-menu .navbar-nav .active a{
@@ -40,6 +41,16 @@ body{
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+    
+}
 /* end navigation */
 
 /* Banner area */
@@ -48,21 +59,26 @@ body{
     background: url(/img/background.jpg) no-repeat 50% 100%;
     background-size: cover;
     height: 740px;
+    width: auto;
+    
+}
+
+.site-main .site-banner .contain-row{
+    text-align: center;
+}
+.site-main .site-banner .site-title{
+    text-align: center;
 }
 
 .site-main .site-banner .site-title h1{
-    font-size: 3.5rem;
-    padding-top: 25%;
+    font-size: 3rem;
+    padding-top: 25%;   
 }
 
 .site-main .site-banner .site-title h4{
     font-size: 1.5rem;
-    
 }
 
-.site-main .site-banner .banner-img > img{
-    padding-top: 5rem;
-}
 
 .title-text{
     font: normal bold 50px/70px "Roboto", cursive;
@@ -81,21 +97,22 @@ body{
 /* Begin Intro area */
 
 .intro-area{
-    padding: 10%;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding: 7%;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
 }
 .intro-title{
     font-style: normal;
     font-size: 2rem;
     padding-bottom: 30px;
+    color: rgb(189, 219, 211);
 }
 
 .intro-paragraph{
-    
     font-style: normal;   
     font-size: 1.3rem;
     font-weight: normal;
+    color: rgb(189, 219, 211);
 }
 
 /* End Intro area */
@@ -103,14 +120,14 @@ body{
 /* Begin Skills area */
 
 .skills-area{
-    padding: 10%;
-    padding-top: 1rem;
-    padding-bottom: 4rem;
+    padding: 7%;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
 }
 .skills-title{
     font-style: normal;
     font-size: 2rem;
-    
+    color: rgb(189, 219, 211);
 }
 
 .skills-area .skills-list{
@@ -118,7 +135,7 @@ body{
     padding-right: 0%;
 }
 .skill-container{
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 .skills{
     background-color: #d5fcf9;
@@ -131,14 +148,14 @@ body{
 /* Begin Projects area */
 
 .projects-area{
-    padding: 10%;
-    padding-top: 1rem;
-    padding-bottom: 4rem;
+    padding: 7%;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
 }
 .projects-title{
     font-style: normal;
     font-size: 2rem;
-    
+    color: rgb(189, 219, 211);
 }
 
 .projects-area .projects-list{
@@ -147,7 +164,7 @@ body{
 }
 
 .project-container{
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 
@@ -157,13 +174,13 @@ body{
 
 .achieves-area{
     padding: 7%;
-    padding-top: 1rem;
-    padding-bottom: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
 }
 .achieves-title{
     font-style: normal;
     font-size: 2rem;
-    
+    color: rgb(189, 219, 211);
 }
 
 .achieves-area .achieves-list{
@@ -171,12 +188,13 @@ body{
     padding-right: 0%;
 }
 .achieve-container{
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
     border-color: #02aab0;
 }
 .achieve{
     border-radius: 5px;
     box-shadow: 0px 0px 19px -7px rgba(0,0,0,0.75);
+    background-color: #d5fcf9;
 }
 
 /* End Achievements area */
@@ -185,13 +203,17 @@ body{
 
 .interests-area{
     padding: 7%;
-    padding-top: 1rem;
+    padding-top: 5rem;
     padding-bottom: 4rem;
 }
 .interests-title{
     font-style: normal;
     font-size: 2rem;
-    
+    color: rgb(189, 219, 211);
+}
+
+.interest-container{
+    padding-bottom: 1.5rem;
 }
 
 /* End Interests area */
@@ -199,7 +221,7 @@ body{
 /* Begin Footer area */
 
 .footer{
-    background-color: rgb(51, 48, 48);
+    background-color: rgb(48, 50, 51);
 }
 
 .footer-container{
@@ -207,7 +229,18 @@ body{
 }
 
 .footer-text{
-    color: whitesmoke;
+    color: rgb(149, 172, 166);
 }
 
+footer a{
+    padding: 8%;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    color: rgb(149, 172, 166);
+    font-size: 20px;
+}
+
+footer a:hover{
+    color:#00cdac;  
+}
 /* End Footer area */
