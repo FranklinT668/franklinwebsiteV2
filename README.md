@@ -1,5 +1,5 @@
 # franklinwebsiteV2
-Version 2 of my website portfolio (Currently in development)
+Version 2 of my website portfolio (old)
 
 - Linked various social media platforms
 - Applied modols
